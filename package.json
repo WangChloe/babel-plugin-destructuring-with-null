@@ -4,6 +4,7 @@
   "description": "A babel plugin to enhance deconstruction even with null",
   "main": "index.js",
   "scripts": {
+    "clean": "rm -rf node_modules && npm install",
     "test": "jest",
     "lint": "eslint . ",
     "lint:fix": "npm run lint --fix"
